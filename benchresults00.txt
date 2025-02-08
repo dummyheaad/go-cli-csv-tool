@@ -1,0 +1,10 @@
+goos: windows
+goarch: amd64
+pkg: pragprog.com/rggo/performance/colStats
+cpu: AMD Ryzen 3 3250U with Radeon Graphics         
+BenchmarkRunAvg-4   	      10	  94572860 ns/op
+BenchmarkRunSum-4   	      10	  78204390 ns/op
+BenchmarkRunMin-4   	      10	  79729950 ns/op
+BenchmarkRunMax-4   	      10	  80207250 ns/op
+PASS
+ok  	pragprog.com/rggo/performance/colStats	3.705s
